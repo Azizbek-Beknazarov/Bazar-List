@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bazar List</string>
+    <string name="delete"> Do you really want to delete it all? </string>
+    <string name="deleteItem"> Do you really want to delete it? </string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+</resources>
