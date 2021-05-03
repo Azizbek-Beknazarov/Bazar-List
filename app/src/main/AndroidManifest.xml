@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RoomDemo2">
-        <activity android:name=".ShowActivity.FAVList"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".View.FAVList"
+            android:parentActivityName=".View.MainActivity"></activity>
+        <activity android:name=".View.MainActivity"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

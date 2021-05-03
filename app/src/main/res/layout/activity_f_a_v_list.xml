@@ -4,14 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShowActivity.FAVList"
-    android:background="#C5F1C7">
+    tools:context=".View.FAVList"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/TextAppearance.AppCompat.Medium">
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/fav_rec"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/fav_list_item"
         ></androidx.recyclerview.widget.RecyclerView>
-
+    </androidx.cardview.widget.CardView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

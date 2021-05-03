@@ -9,6 +9,7 @@
         android:padding="5dp"
         >
         <TextView
+            android:padding="5dp"
             android:gravity="center"
             android:layout_margin="5dp"
             android:id="@+id/showtv"
