@@ -70,7 +70,7 @@ public class BazarAdapter extends RecyclerView.Adapter<BazarAdapter.MainViewHold
                     public void onClick(View v) {
                         dialog.dismiss();
                         String uText = editText.getText().toString().trim();
-                mViewModel.u
+                mViewModel.u // MANA SHU YERDA ISHLATISHIM KERAK
 //                        database.bazarDao().updateText(sID, uText);
 //                        notify when data updated
 //                        datalist.clear();

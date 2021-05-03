@@ -14,7 +14,7 @@ import java.util.List;
 public class BazarRepo {
     private BazarDao mBazarDao;
     private LiveData<List<BazarData>> mList;
-    BazarRepo mRepo=new BazarRepo()
+
 
     public BazarRepo(Application application) {
         BazarDB db = BazarDB.getInstance(application);
